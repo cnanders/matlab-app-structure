@@ -1,2 +1,31 @@
 # matlab-app-structure
 Recommended Directory Structure for a Large MATLAB Application or Project
+
+- app
+  - src
+    - +namespace
+      - App.m
+      - ClassA.m
+      - ClassB.m
+  - test
+    - test_App.m
+    - test_ClassA.m
+    - test_ClassB.m
+  - vendor
+    - fileexchange
+      - userA
+        - package
+      - userB
+        - package
+    - pnaulleau
+      - package2
+      - package2
+    - github
+      - cnanders
+        - matlab-scanner-control-npoint
+        - matlab-instrument-control
+      - rhmiyakawa
+        - matlab-toolbox
+        - matlab-lsi-control
+      - awojdyla
+        - matlab-datatranslation-measurpoint
