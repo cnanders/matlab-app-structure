@@ -2,6 +2,8 @@
 Recommended Directory Structure for a Large MATLAB Application or Project
 
 - app
+  - README.md
+  - CHANGELOG.ms
   - src
     - +namespace
       - App.m
